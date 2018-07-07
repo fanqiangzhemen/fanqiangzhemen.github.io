@@ -1,0 +1,24 @@
+<head>
+    <title>{% if page.title != 翻墙者  %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="msapplication-TileImage" content="/favicon.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+    <link rel="manifest" href="/manifest.json" />
+    <script type="text/javascript">
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+    }
+    </script>
+    <link rel="manifest" href="/manifest.json">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!--[if lte IE 8]><script src="{{ site.path }}/assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="{{ site.path }}/assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="{{ site.path }}/assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="{{ site.path }}/assets/css/ie8.css" /><![endif]-->
+    {% if page.title %}<meta name="description" content="{{ page.description }}">{% else %}<meta name="description" content="翻墙者秉持自由、包容、理性、平等的态度,为生活在中国无形高墙内的人们提供了解 真实世界的窗口，报道真相，普及常识，致力于启发更多生活在墙内的人开始独立思考， 树立公民意识，重视基本权利，用行动推动中国公民社会的构建。"> {% endif %}
+    <script>
+
+
+    </script>
+</head>

@@ -1,0 +1,34 @@
+# site settings
+title: 翻墙者
+subtitle: 自由之魂
+description: 传播真相 启迪思想（网站施工中）
+baseurl: # the subpath of your site, e.g. /blog
+url: fqz.space
+
+# author: 
+# email: 
+# street_address: 联系邮箱
+# city: 推特
+# state: telegram
+# zip_code: 123456
+# country: 第三行
+# phone: (123) 456-7890
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+permalink: /:title.html
+
+defaults:
+  - scope:
+      path: "assets/"
+      extname: ".js"
+    values:
+      image: true
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed

@@ -1,0 +1,28 @@
+<!-- Wrapper -->
+<div id="wrapper">
+    <!-- Header -->
+    <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+        <a href="{{ site.path }}/" class="logo"><strong>{{ site.title }}</strong> {{ site.subtitle }}<span></span></a>
+        <nav>
+            <a href="#menu">菜单</a>
+        </nav>
+    </header>
+<!-- Menu -->
+<nav id="menu">
+    <ul class="links">
+        {% if page.layout != "home" %}
+        <li><a href="{{ site.path }}">主页</a></li>
+        {% endif %}
+        <li><a href="/newsbook.html">新闻集</a></li>
+        <li><a href="/cyclechat.html">一期一会</a></li>
+        <li><a href="/havethink.html">有所思</a></li>
+        <li><a href="/readbooktime.html">读书时</a></li>
+        <li><a href="/oldpeopleword.html">故人言</a></li>
+        <li><a href="/whatchmovie.html">看电影</a></li>
+        <li><a href="/geekspeak.html">极客说</a></li>
+    </ul>
+    <ul class="actions vertical">
+        <li><a href="#" class="button special fit">回到顶部</a></li>
+        <li><a href="{{ site.path }}/about.html" class="button fit">关于我们</a></li>
+    </ul>
+</nav>

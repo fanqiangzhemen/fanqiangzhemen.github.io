@@ -1,0 +1,17 @@
+{
+    "short_name": "翻墙者",
+    "name": "翻墙者网站",
+    "gcm_sender_id": "482941778795",
+    "gcm_sender_id_comment": "Do not change the GCM Sender ID",
+    "display": "standalone",
+    "theme_color": "#8888ff",
+    "background_color": "#aaaaff",
+    "icons": [
+        {
+            "src": "favicon.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        }
+    ],
+    "start_url": "/"
+}
